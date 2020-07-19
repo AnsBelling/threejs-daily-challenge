@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,700&display=swap");
+
+body {
+  margin: 0;
+
+  font-family: "Karla", sans-serif;
+  height: 100vh;
+  background-color: #000010;
+}
+canvas {
+  display: relative;
+  display: block;
+}
+
+.side_bar_writing {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  padding-left: 2em;
+  padding-top: 2em;
+}
+
+.main_title {
+  color: #bb86fc;
+}
+
+.sub-heading {
+  margin-top: -0.5em;
+  font-style: italic;
+  color: #03dac6;
+}
